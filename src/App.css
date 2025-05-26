@@ -1,0 +1,8 @@
+a:hover, button:hover {
+  cursor: none; /* Hide default */
+}
+
+a:hover + div, button:hover + div {
+  transform: scale(1.5) translate(-50%, -50%);
+  transition: transform 0.2s ease;
+}
