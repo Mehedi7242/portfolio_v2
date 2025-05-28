@@ -31,6 +31,9 @@ export default function Navbar() {
             <a href="#skills">Skills</a>
           </Button>
           <Button asChild variant="link">
+            <a href="#about">About</a>
+          </Button>
+          <Button asChild variant="link">
             <a href="#contact">Contact</a>
           </Button>
 
@@ -59,6 +62,11 @@ export default function Navbar() {
           <Button asChild variant="link" className="w-full justify-center">
             <a href="#skills" onClick={() => setMenuOpen(false)}>
               Skills
+            </a>
+          </Button>
+          <Button asChild variant="link" className="w-full justify-center">
+            <a href="#about" onClick={() => setMenuOpen(false)}>
+              About
             </a>
           </Button>
           <Button asChild variant="link" className="w-full justify-center">

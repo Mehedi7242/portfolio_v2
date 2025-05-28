@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import WaveAvatar from "@/components/ui/WaveAvatar";
+import SocialLinks from "./SocialLinks";
 
 export default function Banner() {
   return (
@@ -38,6 +39,7 @@ export default function Banner() {
       >
         Frontend Developer | MERN Stack 
       </motion.p>
+      <SocialLinks></SocialLinks>
     </motion.section>
   );
 }

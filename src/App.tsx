@@ -1,7 +1,9 @@
 
 import CustomCursor from "./components/CustomCursor";
+import About from "./layout/About";
 import Banner from "./layout/Banner";
 import Contact from "./layout/Contact";
+import Footer from "./layout/Footer";
 import Navbar from "./layout/Navbar";
 import Project from "./layout/Project";
 import Skills from "./layout/Skills";
@@ -18,7 +20,9 @@ const App = () => {
       <Banner></Banner>
       <Skills></Skills>
       <Project></Project>
+      <About></About>
       <Contact></Contact>
+      <Footer></Footer>
     </div>
   );
 };

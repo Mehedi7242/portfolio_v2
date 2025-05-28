@@ -68,7 +68,7 @@ function SkillSlider() {
           return (
             <div key={i} className="flex flex-col items-center w-20">
               <i
-                className={`${iconClass} colored text-5xl transition-transform duration-300 hover:scale-110`}
+                className={`${iconClass} colored text-3xl md:text-4xl transition-transform duration-300 hover:scale-110`}
               />
               <span className="text-sm text-gray-700 dark:text-gray-300">{skill.name}</span>
             </div>
