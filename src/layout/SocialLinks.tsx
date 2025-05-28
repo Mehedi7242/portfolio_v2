@@ -17,11 +17,11 @@ const socialLinks: SocialLink[] = [
     className: "devicon-linkedin-plain",
     href: "https://www.linkedin.com/in/mehedi2hasan7",
   },
-  // Optional Facebook
+
   {
     label: "Facebook",
     className: "devicon-facebook-plain",
-    href: "https://facebook.com/your-profile", // Replace with your actual Facebook profile link
+    href: "https://www.facebook.com/mehedi.hasan.315270/", 
   },
 ];
 
