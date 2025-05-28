@@ -24,6 +24,7 @@ const About = () => {
           </p>
         </CardContent>
       </Card>
+      
     </section>
   );
 };
