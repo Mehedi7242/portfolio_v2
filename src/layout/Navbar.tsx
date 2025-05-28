@@ -10,9 +10,10 @@ export default function Navbar() {
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
-    <header className="w-full px-6 py-4 bg-background shadow-md sticky top-0 z-50">
-      <div className="flex items-center justify-between">
-        <h1 className="text-xl font-bold text-primary">Mehedi's Portfolio</h1>
+    <header className=" w-full px-6 py-4 bg-background shadow-md sticky top-0 z-50">
+      <div className="flex  items-center justify-between">
+        
+        <a href="/"><h1 className="text-xl font-bold text-primary">Mehedi's Portfolio</h1></a>
 
         {/* Hamburger Button for small screens */}
         <button
@@ -23,7 +24,7 @@ export default function Navbar() {
         </button>
 
         {/* Desktop Menu */}
-        <nav className="hidden md:flex gap-4 items-center">
+        <nav className="hidden  md:flex gap-4 items-center">
           <Button asChild variant="link">
             <a href="#projects">Projects</a>
           </Button>
