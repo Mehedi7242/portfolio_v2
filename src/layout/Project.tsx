@@ -2,24 +2,65 @@ import { useState, useEffect, useRef } from "react";
 
 const projects = [
   {
+    title: " Almarez-commerce Platform)",
+    description:
+      "A full-featured e-commerce application built with Next.js, featuring an admin panel. The backend is developed using Express.js, and product images are stored using Cloudinary.",
+    tech: [
+      "MongoDB",
+      "Express",
+      "React",
+      "Node.js",
+      "Next.js",
+      "Tailwind CSS",
+      "REST API",
+    ],
+    liveLink: "https://almarez.vercel.app/",
+  },
+  {
+    title: "Surrey E-commerce Platform",
+    description:
+      "A multi-vendor clothing e-commerce platform with separate admin and vendor dashboards. The application is built using Next.js, with ImageKit used for image storage and optimization.",
+    tech: [
+      "PostgreSQL",
+      "Express",
+      "React",
+      "Node.js",
+      "Next.js",
+      "Tailwind CSS",
+      "REST API",
+    ],
+    liveLink: "https://surrey-neon.vercel.app/",
+  },
+  {
     title: "Job Portal",
-    description: "A simple job portal site.",
-    tech: ["MongoDB", "Express", "React", "Node.js", "Tailwind CSS", "REST API"],
+    description:
+      "A web-based job portal that connects recruiters and job seekers, allowing job posting, application management, and user authentication.",
+    tech: [
+      "MongoDB",
+      "Express",
+      "React",
+      "Node.js",
+      "Tailwind CSS",
+      "REST API",
+    ],
     liveLink: "https://job-portal-client-for-recruiter-v3.vercel.app/",
   },
   {
     title: "Dublin Bus",
-    description: "A simple bus system UI.",
+    description:
+      "A clean and responsive user interface for a bus transportation system, focusing on smooth animations and user experience.",
     tech: ["React", "Framer Motion", "REST API"],
     liveLink: "https://mehedi7242.github.io/dublin-bus-page/",
   },
   {
     title: "Dragon News",
-    description: "An online news portal.",
+    description:
+      "An online news portal featuring category-based news browsing and secure user authentication.",
     tech: ["Firebase Authentication", "Vite", "ShadCN UI"],
     liveLink: "https://dragon-news-29617.web.app/category/01",
   },
 ];
+
 
 const SkeletonText = ({ className = "" }: { className?: string }) => (
   <div
